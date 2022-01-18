@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://www.cisco.com/etc/designs/cdc/clientlibs/responsive/css/cisco-sans.min.css');
-@import url('https://cisco-ui.cisco.com/assets/css/cui-standard.min.css');
+
 :root {
   /* Font */
   --cui-font-size:    14px;
