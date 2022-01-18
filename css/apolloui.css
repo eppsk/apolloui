@@ -2464,7 +2464,7 @@ border-radius: 100px;
 #learner .widget--catalog .catalog-search-bar .catalog-display-type {
   display: flex;
   align-items: center;
-  width: 56px;
+  width: 120px;
 }
 
 #learner .widget--catalog .catalog-search-bar .catalog-display-type .btn {
