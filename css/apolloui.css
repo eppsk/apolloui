@@ -2037,7 +2037,7 @@ border-radius: 100px;
     }
     
     .popular-resources .featured-content-block-grid>li, .explore-youliked .featured-content-block-grid>li { 
-      width: 280px;
+      width: 280px !important;
     }
     
     .explore-podcasts .featured-content-block-grid>li {
