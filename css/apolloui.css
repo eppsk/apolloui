@@ -2501,6 +2501,36 @@ border-radius: 100px;
   border: none;
 }
 
+#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container {
+  background-color: #ffffff;
+}
+
+#learner .widget--catalog .catalog-list-item .catalog-list-item__body {
+  background-color: #F4F5F6;
+}
+
+#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__title,
+#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__body 
+{
+  font-size: 29px;
+  font-weight: 300;
+}
+
+#learner .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse {
+  display: flex;
+  align-items: center;
+} 
+
+#learner .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse .medium-4.columns {
+  width: 576px;
+  height: 314px;
+}
+
+#learner .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse .medium-4.columns img {
+  width: 100%;
+  height: 100%;
+}
+
 /* OVERVIEW CLONE */
 
 .layout__content--my-learning-overview-clone {
