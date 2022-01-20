@@ -899,7 +899,6 @@ li.syllabus__topic--non-expandable:before {
 
 /*Text Styles*/
 .welcome-user {
-  font-family: CiscoSansTT;
   font-style: normal;
   font-weight: 350;
   font-size: 36px;
@@ -1995,7 +1994,7 @@ border-radius: 100px;
     }
     
     .widget--featured-content_multi-carousel .widget__title, .layout__content--explore .widget--featured-content .widget__title {
-      font-family: CiscoSansTT;
+      
         font-style: normal;
         font-weight: 300;
         font-size: 29px;
@@ -2055,7 +2054,7 @@ border-radius: 100px;
     }
     
     .explore-podcasts .featured-content-multi-carousel-item__title {
-      font-family: CiscoSansTT;
+      
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -2073,7 +2072,7 @@ border-radius: 100px;
     }
     
     .explore-podcasts .featured-content-multi-carousel-item__description {
-      font-family: CiscoSansTT;
+      
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -2115,7 +2114,6 @@ border-radius: 100px;
 }
 
 .main-footer .link-matrix-category h4 {
-  font-family: CiscoSansTT;
   font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -2686,7 +2684,7 @@ line-height: 125%;
     
     .dashboard-stat, .dashboard-stat .dashboard-stat__label, .dashboard-stat .dashboard-stat__value, .learn.dashboard, .dashboard-access-tab__label, .dashboard-access-tab,
     .dashboard-access-list-item-expander__title, .dashboard-access-list-item, .dashboard-access-list-item__description, .dashboard-access-list-item__description {
-      font-family: CiscoSansTT;
+      
         font-weight: 300;
         line-height: 120%;
         letter-spacing: -0.02em;
@@ -2726,7 +2724,7 @@ line-height: 125%;
         box-sizing: border-box;
         border-radius: 100px;
         font-size: 16px;
-        font-family: CiscoSansTT;
+        
         font-weight: normal;
         line-height: 120%;
         letter-spacing: -0.02em;
@@ -2748,7 +2746,7 @@ line-height: 125%;
         }
         
         .learn.dashboard .widget--recommended-content_multi-carousel .widget__title, .learn.dashboard .explore-learningpath .widget__title  {
-        font-family: CiscoSansTT;
+        
             font-style: normal;
             font-weight: 300;
             font-size: 29px;
@@ -2759,7 +2757,7 @@ line-height: 125%;
         }
         
         .learn.dashboard .explore-learningpath .widget__subtitle {
-        font-family: CiscoSansTT;
+        
           font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -2788,7 +2786,7 @@ line-height: 125%;
             box-sizing: border-box;
             border-radius: 100px;
             font-size: 16px;
-            font-family: CiscoSansTT;
+            
             font-weight: normal;
             line-height: 120%;
             letter-spacing: -0.02em;
