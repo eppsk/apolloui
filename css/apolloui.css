@@ -2479,6 +2479,10 @@ border-radius: 100px;
     border: solid black 2px;
 }
 
+#learner .row .widget .widget--catalog .widget--catalog__standard {
+  font-family: 'CiscoSans';
+}
+
 #learner .widget--catalog .catalog-search-bar .catalog-display-type .btn--primary {
   background-color: #0d0d0e;
   color: white;
@@ -2510,7 +2514,7 @@ border-radius: 100px;
 }
 
 #learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__title,
-#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__body 
+#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__body .catalog-list-item__info
 {
   font-size: 29px;
   font-weight: 300;
@@ -2530,6 +2534,16 @@ border-radius: 100px;
   width: 100%;
   height: 100%;
 }
+
+#learner .catalog-list-item__cta-container .btn .btn--primary .btn--centered .btn--small .btn--no-margin {
+  border-radius: 100px;
+}
+
+#learner .widget--catalog .row .widget .widget--catalog .widget--catalog__standard .catalog-header span {
+  display: none;
+}
+
+
 
 /* OVERVIEW CLONE */
 
