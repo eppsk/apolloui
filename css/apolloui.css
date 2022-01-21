@@ -2794,3 +2794,46 @@ line-height: 125%;
             background-color: #0D0D0E !important;
         }
     
+.learn.dashboard .widget, .learn.transcript .widget,
+.layout__content--explore .widget {
+  padding: 1rem 81px;
+}
+
+.dashboard-access-tab {
+  padding: 1em 1em;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.main-footer {
+  padding-top:         52px;
+  padding-bottom: 52px;
+}
+
+.main-footer .clogo svg {
+  width: 58px;
+}
+
+.main-footer .ulogo svg {
+  width: 58px;
+}
+
+.main-footer .ulogo {
+  width: 58px;
+    border-top: 1px solid #0D0D0E;
+    padding-top: 23px;
+}
+
+.learn.dashboard .main-footer .row {
+  filter: invert(1);
+}
+
+.learn.dashboard .main-footer {
+  background: #1B1C1D;
+}
