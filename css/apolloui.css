@@ -2927,3 +2927,19 @@ letter-spacing: -0.02em;
 font-size: 16px;
 line-height: 125%;
 }
+
+.market-ad {
+	width: 1020px;
+    padding: 0;
+    background-color: #0D0D0E;
+	height: 474px;
+}
+
+.market-ad .row {
+	margin: 0 auto;
+}
+
+.market-ad .row div.columns:last-of-type {
+    width: auto;
+    padding: 0;
+}
