@@ -2950,3 +2950,21 @@ line-height: 125%;
 	padding: 98px 115px;
     width: 580px;
 }
+
+.layout__content--explore .explore-cisco .h2.widget__title span {
+	position: absolute;
+    right: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    color: #0076D5;
+}
+
+.layout__content--explore .explore-cisco .h2.widget__title span a {
+    color: #0076D5;
+}
+
+.layout__content--explore .explore-cisco .h2.widget__title {
+	position: relative;
+}
