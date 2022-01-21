@@ -2543,7 +2543,26 @@ border-radius: 100px;
   display: none;
 }
 
+#learner .learner__container .learner__container--closed, #learner .learner__container .learner__container--toggled {
+  font-family: 'CiscoSans';
+}
 
+#learner .learner__container__toggle .btn {
+  background-color: #0d0d0e;
+  color: white;
+  border: solid 1px;
+  border-radius: 100px;
+}
+
+#learner .learner__container .learner-section__title__container h3 {
+  font-size: 29px;
+  font-weight: 300;
+}
+
+#learner .learner__container .topic__text__body .editor-content h3 {
+  font-size: 22px;
+  font-weight: 300;
+}
 
 /* OVERVIEW CLONE */
 
