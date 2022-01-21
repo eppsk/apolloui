@@ -2837,3 +2837,46 @@ line-height: 125%;
 .learn.dashboard .main-footer {
   background: #1B1C1D;
 }
+
+.learn.dashboard li.category__list__item.sortable-category__list__item .list-item__title.active span:first-of-type,
+.learn.dashboard li.category__list__item.sortable-category__list__item .list-item__title>span:first-of-type {
+  color: #fff;
+}
+
+.learn.dashboard li.category__list__item.sortable-category__list__item .list-item__title:hover,
+.learn.dashboard li.category__list__item.sortable-category__list__item:hover,
+.learn.dashboard li.category__list__item.sortable-category__list__item .list-item__handle:hover,
+.learn.dashboard li.category__list__item.sortable-category__list__item .list-item__title.active {
+  background-color: #323737;
+}
+
+.learn.dashboard li.category__list__item.sortable-category__list__item .list-item__title.active:before {
+  content: '';
+  position: absolute;
+  width: calc(100% + 32px);
+  left: -32px;
+  height: 100%;
+  background-color: #323737;
+}
+
+.learn.dashboard li.category__list__item.sortable-category__list__item .list-item__handle,
+.learn.dashboard li.category__list__item.sortable-category__list__item .list-item__title.active span {
+  z-index: 1;
+}
+
+.layout__content--explore .hero .hero__caption .hero__title {
+    color: white;
+    font-weight: 300;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+
+letter-spacing: -0.02em;
+}
+
+.layout__content--explore .hero .hero__caption span {
+    color: white;
+    font-weight: normal;
+font-size: 16px;
+line-height: 125%;
+}
