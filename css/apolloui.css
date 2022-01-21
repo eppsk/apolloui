@@ -2093,7 +2093,7 @@ border-radius: 100px;
     }
     
     .explore-youliked .featured-content-block-grid>li:first-of-type {
-      width: 575px;
+      width: 575px !important;
     }
     
     .explore-youliked .featured-content-block-grid>li:first-of-type .featured-content-multi-carousel-item__description, 
