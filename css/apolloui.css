@@ -2930,7 +2930,7 @@ line-height: 125%;
 
 .market-ad {
 	width: 1020px;
-    padding: 0;
+    padding: 0 !important;
     background-color: #0D0D0E;
 	height: 474px;
 }
