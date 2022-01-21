@@ -2951,7 +2951,8 @@ line-height: 125%;
     width: 580px;
 }
 
-.layout__content--explore .explore-cisco .h2.widget__title span {
+.layout__content--explore .explore-cisco .h2.widget__title span,
+.layout__content--explore .explore-youliked .h2.widget__title span {
 	position: absolute;
     right: 0;
     font-style: normal;
@@ -2961,10 +2962,12 @@ line-height: 125%;
     color: #0076D5;
 }
 
-.layout__content--explore .explore-cisco .h2.widget__title span a {
+.layout__content--explore .explore-cisco .h2.widget__title span a,
+.layout__content--explore .explore-youliked .h2.widget__title span a {
     color: #0076D5;
 }
 
-.layout__content--explore .explore-cisco .h2.widget__title {
+.layout__content--explore .explore-cisco .h2.widget__title,
+.layout__content--explore .explore-youliked .h2.widget__title {
 	position: relative;
 }
