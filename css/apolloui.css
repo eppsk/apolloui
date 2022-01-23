@@ -272,7 +272,7 @@
 .hBanner .hero .hero__caption span {font-size: 16px; color: #a7a7aa; font-weight: 400; line-height: 24px;}
 
 /*For Home Page - .home to removed for global */
-.home .header--microsite {padding: 0 1rem 0; background: #000;}
+/*.home .header--microsite {padding: 0 1rem 0; background: #000;}*/
 .home .header--microsite .top-bar {bottom: auto; margin: 0; vertical-align: top; width: calc(100% - 160px - 240px);}
 .home .header .company__beta-logo {width: 240px;}
 .home .header .company__beta-logo .company-logo__container img {max-height: 54px; margin-top: 12px;}
