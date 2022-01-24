@@ -2633,6 +2633,18 @@ border-radius: 100px;
   font-weight:300;
 }
 
+#learner .course__container .sidebar--closed--right .learner__container .learner__container--toggled .learner__sidebar .learner__sidebar__search {
+  height: 37px;
+}
+
+#learner .course__container .sidebar--closed--right .learner__container .learner__container--toggled .learner__sidebar .learner__sidebar__search .learner__container__toggle .learner__container__toggle--small .text-right button {
+  background-color: #0d0d0e;
+  color: white;
+  border: solid 1px;
+  border-radius: 100px;
+  height: 44px;
+}
+
 /* OVERVIEW CLONE */
 
 .layout__content--my-learning-overview-clone {
