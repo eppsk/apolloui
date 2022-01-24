@@ -2537,9 +2537,15 @@ border-radius: 100px;
   border-radius: 100px;
 }
 
-#learner .widget--catalog .row .widget .widget--catalog .widget--catalog__standard .catalog-header span {
+#learner .widget--catalog .widget--catalog__standard .catalog-header span {
   display: none;
 }
+
+#learner .widget--catalog .catalog-list-item .catalog-list-item__body .small-12 .columns {
+  padding-left: 10px;
+}
+
+/*COURSE VIEW*/
 
 #learner .learner__container {
   background-color:white;
@@ -2574,6 +2580,10 @@ border-radius: 100px;
 #learner .expandable-sidebar__content,
 #learner .expandable-sidebar__toggle {
   background-color: white;
+}
+
+#learner .learner__sidebar-list .syllabus__section-title {
+  font-weight:300;
 }
 
 /* OVERVIEW CLONE */
