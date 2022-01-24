@@ -2645,6 +2645,10 @@ border-radius: 100px;
   height: 44px;
 }
 
+#learner .course__container .sidebar--closed--right .layout-panel .learner__sidebar__expandables .expandable-sidebar__content .syllabus__topics .syllabus__topic .syllabus__topic--active .syllabus__topic--non-expandable .icon-circle .icon-circle--full span {
+  background: #6abf4b;
+}
+
 /* OVERVIEW CLONE */
 
 .layout__content--my-learning-overview-clone {
