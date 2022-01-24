@@ -3095,3 +3095,42 @@ color: #606162;
 .user-dropdown #touch {position: absolute; opacity: 0; height: 0px;}    
 
 .user-dropdown #touch:checked + .slide {height: auto; border: 1px solid #0d0d0e;} 
+
+.header--dashboard .main-header .ulogo {
+  filter: invert(1);
+}
+
+.header--dashboard .main-header .link-matrix-header li a {
+  padding: 17px 25px;
+  font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.header--dashboard .main-header .link-matrix-header li a:hover, .main-header .link-matrix-header li a.active {
+  box-sizing: border-box;
+    border-radius: 100px;
+    color: #FFFFFF !important;
+    background-color: #1B1C1D !important;
+}
+
+.header--dashboard .main-header .global-search-form {
+  position: relative;
+}
+
+.header--dashboard .main-header .global-search-form input {
+      background: #1B1C1D;
+      color: #fff;
+}
+
+.header--dashboard .main-header .global-search-form input::placeholder {
+   color: #fff;
+}
+
+.header--dashboard .main-header .user-dropdown span {
+  background: #1B1C1D;
+}
+
