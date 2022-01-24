@@ -3012,7 +3012,6 @@ line-height: 125%;
 }
 
 .main-header .global-search-form input::placeholder {
-  font-family: 'CiscoSans';
   font-style: normal;
 font-weight: normal;
 font-size: 18px;
