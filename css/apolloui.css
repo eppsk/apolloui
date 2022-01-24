@@ -2459,13 +2459,13 @@ border-radius: 100px;
 
 /* CATALOG */
 
-#learner .widget--catalog .catalog-search-bar .catalog-display-type {
+.home.catalog .widget--catalog .catalog-search-bar .catalog-display-type {
   display: flex;
   align-items: center;
   width: 120px;
 }
 
-#learner .widget--catalog .catalog-search-bar .catalog-display-type .btn {
+.home.catalog .widget--catalog .catalog-search-bar .catalog-display-type .btn {
     width: 24px;
     height: 24px;
     border-radius: 100%;
@@ -2477,80 +2477,91 @@ border-radius: 100px;
     border: solid black 2px;
 }
 
-#learner .row .widget .widget--catalog .widget--catalog__standard {
+.home.catalog .row .widget .widget--catalog .widget--catalog__standard {
   font-family: 'CiscoSans';
 }
 
-#learner .widget--catalog .catalog-search-bar .catalog-display-type .btn--primary {
+.home.catalog .widget--catalog .catalog-search-bar .catalog-display-type .btn--primary {
   background-color: #0d0d0e;
   color: white;
 }
 
-#learner .widget--catalog .catalog-search-bar .catalog-filters {
+.home.catalog .widget--catalog .catalog-search-bar .catalog-filters {
   border: none;
 }
 
-#learner .widget--catalog .catalog-search-bar .catalog-filters .catalog-search input {
+.home.catalog .widget--catalog .catalog-search-bar .catalog-filters .catalog-search input {
   filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
   border-radius: 50px;
+  padding-left: 20px;
 }
 
-#learner .widget--catalog .catalog-search-bar .catalog-filters .catalog-search .catalog-search__button {
+.home.catalog .widget--catalog .catalog-search-bar .catalog-filters .catalog-search .catalog-search__button {
   right: 23px;
 }
 
-#learner .widget--catalog .catalog-search-bar .catalog-filters .catalog-filters__sort {
+.home.catalog .widget--catalog .catalog-search-bar .catalog-filters .catalog-filters__sort {
   border: none;
 }
 
-#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container {
+.home.catalog .widget--catalog .catalog-list-item .catalog-list-item__title-container {
   background-color: #ffffff;
 }
 
-#learner .widget--catalog .catalog-list-item .catalog-list-item__body {
+.home.catalog .widget--catalog .catalog-list-item .catalog-list-item__body {
   background-color: #F4F5F6;
 }
 
-#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__title,
-#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__body .catalog-list-item__info strong
+.home.catalog .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__title
 {
   font-size: 29px;
   font-weight: 300;
 }
 
-#learner .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse {
+.home.catalog .widget--catalog .catalog-list-item__info,
+.home.catalog .widget--catalog .catalog-list-item__info strong {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.home.catalog .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse {
   display: flex;
   align-items: center;
 } 
 
-#learner .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse .medium-4.columns {
+.home.catalog .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse .medium-4.columns {
   width: 576px;
   height: 314px;
 }
 
-#learner .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse .medium-4.columns img {
+.home.catalog .widget--catalog .catalog-list-item .catalog-list-item__body .row.collapse .medium-4.columns img {
   width: 100%;
   height: 100%;
 }
 
-#learner .catalog-list-item__cta-container .btn .btn--primary .btn--centered .btn--small .btn--no-margin {
+.home.catalog .catalog-list-item__cta-container .btn .btn--primary .btn--centered .btn--small .btn--no-margin {
   border-radius: 100px;
 }
 
-#learner .widget--catalog .widget--catalog__standard .catalog-header span {
-  display: none;
+.home.catalog .catalog-header {
+  display: none; 
 }
 
-#learner .widget--catalog .catalog-list-item .catalog-list-item__body .small-12 .columns {
-  padding-left: 10px;
+.home.catalog .widget--catalog .catalog-list-item .catalog-list-item__body .catalog-list-item__info,
+.home.catalog .widget--catalog .catalog-list-item .catalog-list-item__body .catalog-list-item__description {
+  padding-left: 20px;
 }
 
-#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item {
-  background-color: #f4f5f6;
+.home.catalog .widget--catalog [class*=block-grid-] li {
   color: #0D0D0E;
+  width: 575px;
 }
 
-#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item .catalog-grid-item__body {
+.home.catalog .widget--catalog [class*=block-grid-] li .catalog-grid-item {
+  background-color: #f4f5f6;
+}
+
+.home.catalog .widget--catalog .catalog-item .catalog-grid-item .catalog-grid-item__body {
   margin-top: 4px;
   padding: .75em;
   height: 200px;
@@ -2558,7 +2569,7 @@ border-radius: 100px;
   flex-direction: column;
 }
 
-#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__title {
+.home.catalog .widget--catalog .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__title {
   margin-bottom: 21px;
   font-style: normal;
   font-weight: 300;
@@ -2568,7 +2579,7 @@ border-radius: 100px;
   text-align: left;
 }
 
-#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__description {
+.home.catalog .widget--catalog .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__description {
   color: #0d0d0e;
   font-size: 16px;
   margin-bottom: 0px;
@@ -2577,7 +2588,7 @@ border-radius: 100px;
   padding-top: .25em;
 }
 
-#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__source {
+.home.catalog .widget--catalog .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__source {
   order: -1;
   font-style: normal;
   font-weight: normal;
@@ -2592,50 +2603,50 @@ border-radius: 100px;
 
 /*COURSE VIEW*/
 
-#learner .learner__container {
+.learn.course .learner__container {
   background-color:white;
 }
 
-#learner .learner__container .learner__container--closed, #learner .learner__container .learner__container--toggled {
+.learn.course .learner__container .learner__container--closed, .learn.course .learner__container .learner__container--toggled {
   font-family: 'CiscoSans';
 }
 
-#learner .learner__container__toggle .btn {
+.learn.course .learner__container__toggle .btn {
   background-color: #0d0d0e;
   color: white;
   border: solid 1px;
   border-radius: 100px;
 }
 
-#learner .learner__container .learner-section__title__container h3 {
+.learn.course .learner__container .learner-section__title__container h3 {
   font-size: 29px;
   font-weight: 300;
 }
 
-#learner .learner__container .topic__text__body .editor-content h3 {
+.learn.course .learner__container .topic__text__body .editor-content h3 {
   font-size: 22px;
   font-weight: 300;
 }
 
-#learner .learner_content .directional__nav .directional__nav__button__container .directional__nav__button__container--prev .directional__nav__button .directional__nav__button--left,
-#learner .learner_content .directional__nav .directional__nav__button__container .directional__nav__button__container--next .directional__nav__button .directional__nav__button--right {
+.learn.course .learner_content .directional__nav .directional__nav__button__container .directional__nav__button__container--prev .directional__nav__button .directional__nav__button--left,
+.learn.course .learner_content .directional__nav .directional__nav__button__container .directional__nav__button__container--next .directional__nav__button .directional__nav__button--right {
   border-radius: 100%;
 }
 
-#learner .expandable-sidebar__content,
-#learner .expandable-sidebar__toggle {
+.learn.course .expandable-sidebar__content,
+.learn.course .expandable-sidebar__toggle {
   background-color: white;
 }
 
-#learner .learner__sidebar-list .syllabus__section-title {
+.learn.course .learner__sidebar-list .syllabus__section-title {
   font-weight:300;
 }
 
-#learner .course__container .sidebar--closed--right .learner__container .learner__container--toggled .learner__sidebar .learner__sidebar__search {
+.learn.course .course__container .learner__container .learner__container--toggled .learner__sidebar .learner__sidebar__search {
   height: 37px;
 }
 
-#learner .course__container .sidebar--closed--right .learner__container .learner__container--toggled .learner__sidebar .learner__sidebar__search .learner__container__toggle .learner__container__toggle--small .text-right button {
+.learn.course .course__container.sidebar--closed--right .learner__container.learner__container--toggled .learner__sidebar .learner__container__toggle.learner__container__toggle--small button {
   background-color: #0d0d0e;
   color: white;
   border: solid 1px;
@@ -2643,8 +2654,19 @@ border-radius: 100px;
   height: 44px;
 }
 
-#learner .course__container .sidebar--closed--right .layout-panel .learner__sidebar__expandables .expandable-sidebar__content .syllabus__topics .syllabus__topic .syllabus__topic--active .syllabus__topic--non-expandable .icon-circle .icon-circle--full span {
+.learn.course .course__container.sidebar--closed--right .layout-panel .learner__sidebar__expandables .expandable-sidebar__content .syllabus__topic--active .icon-circle.icon-circle--full span {
   background: #6abf4b;
+}
+
+.learn.course .learner__sidebar .learner__sidebar__search input {
+    height: 43px !important;
+    border-radius: 100px;
+    padding-left: 35px;
+}
+
+.learn.course .directional__nav__button.directional__nav__button--right .icon-navigateright:before, 
+.learn.course .directional__nav__button.directional__nav__button--left .icon-navigateleft:before {
+  border-radius: 100%;
 }
 
 /* OVERVIEW CLONE */
