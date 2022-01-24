@@ -2971,3 +2971,120 @@ line-height: 125%;
 .layout__content--explore .explore-youliked .h2.widget__title {
 	position: relative;
 }
+
+.main-header .link-matrix-header {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-header .link-matrix-header li {
+  margin: 17px 0px;
+}
+
+.main-header .link-matrix-header li a {
+  padding: 17px 25px;
+  font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #0D0D0E;
+}
+
+.main-header .link-matrix-header li a:hover {
+  box-sizing: border-box;
+    border-radius: 100px;
+    color: #FFFFFF !important;
+    background-color: #0D0D0E !important;
+}
+
+.main-header .global-search-form {
+  position: relative;
+}
+
+.main-header .global-search-form input {
+      filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+      border-radius: 100px;
+      padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main-header .global-search-form input::placeholder {
+  font-family: 'CiscoSans';
+  font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+/* Black/Extra Light */
+
+color: #606162;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.main-header .search-bar-widget {
+  flex: 1;
+}
+
+
+.home .nav--top {
+  display: none;
+}
+
+.user-dropdown {
+  position: relative;
+}
+
+.user-dropdown span {
+  padding : 10px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.user-dropdown span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+  background-color: #fff;
+  color: #0d0d0e;;
+  position: absolute;
+  z-index: 1;
+}
+
+.slide li {padding : 10px;}
+
+.user-dropdown #touch {position: absolute; opacity: 0; height: 0px;}    
+
+.user-dropdown #touch:checked + .slide {height: auto;} 
