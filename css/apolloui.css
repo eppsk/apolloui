@@ -2547,6 +2547,51 @@ border-radius: 100px;
   padding-left: 10px;
 }
 
+#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item {
+  background-color: #f4f5f6;
+  color: #0d0d0e;
+}
+
+#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item .catalog-grid-item__body {
+  margin-top: 4px;
+  padding: .75em;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__title {
+  margin-bottom: 21px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__description {
+  color: #0d0d0e;
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  overflow: unset;
+  padding-top: .25em;
+}
+
+#learner .widget--catalog .widget--catalog__standard .row .catalog-item .catalog-grid-item .catalog-grid-item__body .catalog-grid-item__source {
+  order: -1;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 120%;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 9px;
+  color: #0D0D0E;
+}
+
 /*COURSE VIEW*/
 
 #learner .learner__container {
