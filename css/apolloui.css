@@ -2514,7 +2514,7 @@ border-radius: 100px;
 }
 
 #learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__title,
-#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__body .catalog-list-item__info
+#learner .widget--catalog .catalog-list-item .catalog-list-item__title-container .catalog-list-item__body .catalog-list-item__info strong
 {
   font-size: 29px;
   font-weight: 300;
