@@ -3203,3 +3203,15 @@ color: #606162;
 .header--dashboard .main-header .user-dropdown span {
   background: #1B1C1D;
 }
+.home.catalog .catalogTitle .widget__title {font-size: 50px; color: #000; font-weight: 500; text-transform: uppercase; text-align: left; margin-bottom: 32px;}
+.home.catalog .catalog-header {display: none;}
+.home.catalog .catalog-aggregation__header--label {font-style: normal; font-weight: 300; font-size: 22px; line-height: 120%;  display: inline-block;  padding-left: 0;}
+.home.catalog .btn.catalog-aggregation__value {font-style: normal; font-weight: normal; font-size: 16px; line-height: 125%; color: #0D0D0E; display: inline-block;  font-size: 14px; font-size: .875rem; margin: 0 0 0 1.4em; text-align: left;}
+.home.catalog .catalog-aggregation--expanded {background-color: #FFFFFF;}
+.home.catalog .catalog-aggregation__header--label:hover { color: #0D0D0E;}
+.home.catalog .btn.catalog-aggregation__value:hover {color:#0D0D0E;}
+.home.catalog .column.small-11:hover {color:#0D0D0E;}
+.home.catalog .row.collapse:hover {color:#0D0D0E;}
+.home.catalog .catalog-aggregation__header--label:hover, .catalog-aggregation__header--label:visited, .catalog-aggregation__header--label:focus, .catalog-aggregation__header--label:active, .catalog-aggregation__header--label:link {
+  color:#0D0D0E;}
+.home.catalog .catalog-aggregation {border-top: 0px; border-bottom: 0px; padding: 0.75em 0.5em;}
