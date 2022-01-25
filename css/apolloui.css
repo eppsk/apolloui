@@ -2608,6 +2608,38 @@ border-radius: 100px;
   color: #0D0D0E;
 }
 
+.home.catalog .catalog-filters__selections .form-control.select.btn--no-margin.catalog-filters__select {
+  background-color: #0d0d0e;
+  color: white;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.home.catalog .catalog-filters__selections .catalog-content-type:after{
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white;
+  position: absolute;
+  top: 45%;
+  right: 23%;
+  content: "";
+  z-index: 99;
+ }
+ 
+.home.catalog .catalog-filters__selections .form-control.select.btn--no-margin.catalog-filters__select{
+  width: 135px;
+  border: 0;
+  position: relative;
+  z-index: 98;
+  padding-left: 26px;
+}
+
+.home.catalog .catalog-filters__search .catalog-search {
+  display: none;
+}
+
 /*COURSE VIEW*/
 
 .learn.course .learner__container {
