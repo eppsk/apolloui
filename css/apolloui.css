@@ -2647,6 +2647,10 @@ border-radius: 100px;
   border-bottom-left-radius: 100px;  
 }
 
+.home.catalog .large-block-grid-3>li:nth-of-type(3n+1) {
+  clear: none; 
+}
+
 /*COURSE VIEW*/
 
 .learn.course .learner__container {
