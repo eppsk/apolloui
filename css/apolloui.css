@@ -2640,6 +2640,13 @@ border-radius: 100px;
   display: none;
 }
 
+.home.catalog .catalog-search-bar .catalog-filters__selections {
+  border-left: none;
+  padding-left: 0px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;  
+}
+
 /*COURSE VIEW*/
 
 .learn.course .learner__container {
