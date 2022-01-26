@@ -3295,3 +3295,173 @@ color: #606162;
 .home.catalog .catalog-aggregation__header--label:hover, .catalog-aggregation__header--label:visited, .catalog-aggregation__header--label:focus, .catalog-aggregation__header--label:active, .catalog-aggregation__header--label:link {
   color:#0D0D0E;}
 .home.catalog .catalog-aggregation {border-top: 0px; border-bottom: 0px; padding: 0.75em 0.5em;}
+
+.learn.dashboard .widget--recommended-content_multi-carousel .featured-content-multi-carousel .featured-content-block-grid>li,
+.learn.dashboard .widget--recommended-content .featured-content-block-grid>li {
+        flex: 0 0 575px;
+        display: flex;
+        }
+        
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li {
+          display: flex;
+        }
+        
+        .learn.dashboard .widget--recommended-content .featured-content-block-grid>li :is(.catalog-item, .catalog-grid-item, .row),
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li :is(.catalog-item, .featured-content-article-item, .row) {
+          display: flex;
+          flex-grow: 1;
+        }
+        
+        .learn.dashboard .widget--recommended-content .featured-content-block-grid>li .row,
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row {
+          flex-direction: column;
+        }
+        
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row .featured-content-article-item__description, 
+        .layout__content--explore .featured-content-item__authors {
+          flex-grow: 1;
+        }
+        
+        .layout__content--explore .featured-content-item__authors {
+          margin-top: 20px;
+        }
+        
+        .learn.dashboard .widget--recommended-content .featured-content-block-grid>li .row [class*=column]+[class*=column]:last-child,
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row [class*=column]+[class*=column]:last-child {
+          flex-grow: 1;
+          display: flex;
+        }
+        
+        .learn.dashboard .widget--recommended-content .featured-content-block-grid>li .row [class*=column]:first-child,
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row [class*=column]:first-child {
+          display: none;
+        }
+        
+        .learn.dashboard .widget--recommended-content .featured-content-block-grid>li .catalog-grid-item {
+          border-width: 0px;
+        }
+        
+        .learn.dashboard .widget--recommended-content_multi-carousel .featured-content-multi-carousel {
+          position: static;
+          overflow: visible;
+        }
+        
+        .learn.dashboard .widget--recommended-content_multi-carousel .featured-content-multi-carousel-item {
+          border-right-width: 0px;
+        }
+        
+        .learn.dashboard .widget--recommended-content_multi-carousel .widget__title, .learn.dashboard .explore-learningpath .widget__title  {
+        
+            font-style: normal;
+            font-weight: 300;
+            font-size: 29px;
+            line-height: 120%;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #fff;
+        }
+        
+        .learn.dashboard .explore-learningpath .widget__subtitle {
+        
+          font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 125%;
+            text-align: left;
+            color: #fff;
+        }
+        
+        .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar,
+        .learn.dashboard .widget--recommended-content .featured-content-default-grid ::-webkit-scrollbar {
+                    width: 12px;
+                    height: 8px;
+                    }
+        
+                   .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar-track,
+                   .learn.dashboard .widget--recommended-content .featured-content-default-grid ::-webkit-scrollbar-track {
+                    background-color: #C3C4C5;
+                    border-radius: 10px;
+                    }
+        
+                    .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar-thumb,
+                    .learn.dashboard .widget--recommended-content .featured-content-default-grid ::-webkit-scrollbar-thumb {
+                    border-radius: 10px;
+                    background-color: #0051AF;
+                    }
+
+        .learn.dashboard .widget--recommended-content .featured-content-block-grid {
+          display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    max-width:100%;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+        }
+        
+        .learn.dashboard .widget--recommended-content .featured-content-block-grid>li .row .catalog-grid-item__body :not(.catalog-grid-item__title, .catalog-grid-item__description, .catalog-grid-item__source, .catalog-grid-item__source strong, .featured-content-article-item__queue) {
+          display: none;
+        }
+        
+  .learn.dashboard .catalog-grid-item__title {
+            font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 43px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        margin-bottom: 0px;
+      }
+      
+      .learn.dashboard .catalog-grid-item__description {
+        font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    padding: 0;
+    margin-top: 11px;
+    padding-bottom: 11px;
+        border-bottom: 1px solid #C3C4C5;
+        color: #fff;
+      }
+      
+      .learn.dashboard .catalog-grid-item__description::before {
+        border-width: 0px;
+      }
+      
+    .learn.dashboard .catalog-grid-item__body {
+    display: flex;
+    flex-direction: column;
+        padding-top: 31px;
+        padding-left: 36px;
+        padding-right: 36px;
+        color: #fff;
+        background-color: #1b1c1d;
+        flex-grow:1;
+    }
+    
+    .learn.dashboard .catalog-grid-item__source {
+      order: -1;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 120%;
+        letter-spacing: 0.6em;
+        text-transform: uppercase;
+        text-align: left;
+        margin-bottom: 34px;
+        color: #fff;
+    }
+    
+    .learn.dashboard .featured-content-item__authors {
+      color: #fff;
+    }
+    
+    .layout__content--explore .featured-content-article-item__queue {
+      position: static;
+    }
+    
+    .learn.dashboard .widget--html {
+          padding: 1rem 0px;
+    padding-bottom: 0;
+    }
