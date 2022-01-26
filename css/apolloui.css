@@ -3465,3 +3465,7 @@ color: #606162;
           padding: 1rem 0px;
     padding-bottom: 0;
     }
+
+.course .btn {
+	font-size: 16px;
+}
