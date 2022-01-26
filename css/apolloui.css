@@ -3466,6 +3466,6 @@ color: #606162;
     padding-bottom: 0;
     }
 
-.course .btn {
+.course .btn--expand, .course .hide-sidebar {
 	font-size: 16px;
 }
