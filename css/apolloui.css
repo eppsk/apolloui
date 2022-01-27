@@ -2727,6 +2727,10 @@ border-radius: 100px;
   border-radius: 100%;
 }
 
+.learn.course .btn.btn--bare.btn--no-margin.learner__sidebar__search-icon {
+  margin-top: 3px;
+}
+
 /* OVERVIEW CLONE */
 
 .layout__content--my-learning-overview-clone {
