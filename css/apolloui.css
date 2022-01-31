@@ -2844,7 +2844,7 @@ line-height: 125%;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     }
     
-    .flex {
+    .layout__content--explore .flex, .learn.dashboard .flex {
     display: flex;
     flex-wrap: nowrap;
     }
