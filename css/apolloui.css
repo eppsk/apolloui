@@ -2461,11 +2461,21 @@ border-radius: 100px;
 
 /* CATALOG */
 
+.home.catalog .widget--catalog {
+  padding-right: 113px;
+  padding-left: 50px;
+}
+
+.home.catalog .editor-content {
+  font-size: 16px;
+}
+
 .home.catalog .widget--catalog .catalog-search-bar .catalog-display-type {
   display: flex;
   align-items: center;
   width: 120px;
 }
+
 
 .home.catalog .widget--catalog .catalog-search-bar .catalog-display-type .btn {
     width: 24px;
@@ -2732,6 +2742,8 @@ border-radius: 100px;
 .learn.course .btn.btn--bare.btn--no-margin.learner__sidebar__search-icon {
   margin-top: 3px;
 }
+
+
 
 /* OVERVIEW CLONE */
 
