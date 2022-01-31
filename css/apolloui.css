@@ -2564,6 +2564,10 @@ border-radius: 100px;
   display: none; 
 }
 
+.home.catalog .catalog-search-bar {
+  width: 101.85%;
+}
+
 .home.catalog .widget--catalog .catalog-list-item .catalog-list-item__body .catalog-list-item__info,
 .home.catalog .widget--catalog .catalog-list-item .catalog-list-item__body .catalog-list-item__description {
   padding-left: 20px;
