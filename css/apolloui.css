@@ -3473,3 +3473,15 @@ color: #606162;
 .course .btn--expand, .course .hide-sidebar {
 	font-size: 16px;
 }
+
+.learn.dashboard .widget--recommended-content .featured-content-multi-carousel-item {
+      display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #1b1c1d;
+    }
+    
+    .learn.dashboard .widget--recommended-content .featured-content-multi-carousel-item__description,
+    .learn.dashboard .widget--recommended-content .featured-content-multi-carousel-item__body {
+      flex-grow: 1
+    }
