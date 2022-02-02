@@ -3238,20 +3238,23 @@ color: #606162;
 
 .slide {
   clear:both;
-  width:100%;
+  width:244px;
   height:0px;
   overflow: hidden;
-  text-align: center;
+  text-align: left;
   transition: height .4s ease;
   background-color: #fff;
   color: #0d0d0e;;
   position: absolute;
   z-index: 1;
     margin: 0px;
+	right: 0;
+  border: 1px solid #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .slide li {
-  padding : 10px;
+  padding : 10px 33px;
 }
 
 .user-dropdown label {
