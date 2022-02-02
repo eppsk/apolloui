@@ -3509,4 +3509,9 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   .learn.dashboard .widget, .learn.transcript .widget, .layout__content--explore .widget {
      padding: 1em 20px;
   }
+	
+  .main-footer {
+     padding-left: 10px;
+    padding-right: 10px;
+  }
 }
