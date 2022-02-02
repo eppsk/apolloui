@@ -3500,3 +3500,10 @@ color: #606162;
     .learn.dashboard .widget--recommended-content .featured-content-multi-carousel-item__body {
       flex-grow: 1
     }
+
+@media only screen and (max-width:48.063em) {
+  
+  .learn.dashboard .widget, .learn.transcript .widget, .layout__content--explore .widget {
+     padding: 1em 20px;
+  }
+}
