@@ -2459,6 +2459,40 @@ border-radius: 100px;
   background-color: #0D0D0E;
 }
 
+.learn.dashboard .featured-content-block-grid .featured-content-article-item {
+  border-radius: 0px 50px;
+  color: white;
+}
+
+.learn.dashboard .featured-content-article-item .column.medium-12 {
+  display: flex;
+  justify-content: center;
+}
+
+.learn.dashboard .featured-content-article-item img {
+  max-width: 95%;
+}
+
+.learn.dashboard .featured-content-article-item__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.learn.dashboard .featured-content-article-item__body .featured-content-multi-carousel-item__source {
+  margin-bottom: -9px;
+  margin-top: 15px;
+}
+
+.learn.dashboard .featured-content-article-item__body .featured-content-article-item__title {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: -9px;
+}
+
+.learn.dashboard .featured-content-article-item__body .featured-content-article-item__description {
+  font-size: 16px;
+}
+
 /* CATALOG */
 
 .home.catalog .widget--catalog {
