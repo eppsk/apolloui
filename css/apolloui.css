@@ -3514,4 +3514,9 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
      padding-left: 10px;
     padding-right: 10px;
   }
+	
+  .market-ad .row div.columns:first-of-type {
+	  padding: 40px;
+	  width: 100%;
+  }
 }
