@@ -2460,7 +2460,6 @@ border-radius: 100px;
 }
 
 .learn.dashboard .featured-content-block-grid .featured-content-article-item {
-  border-radius: 0px 50px;
   color: white;
 }
 
@@ -2470,7 +2469,7 @@ border-radius: 100px;
 }
 
 .learn.dashboard .featured-content-article-item img {
-  max-width: 95%;
+  border-radius: 0px 50px;
 }
 
 .learn.dashboard .featured-content-article-item__body {
