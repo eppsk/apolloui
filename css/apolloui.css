@@ -3537,6 +3537,15 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
       flex-grow: 1
     }
 
+.main-footer .link-matrix-category__container li {
+    width: auto;
+    flex-grow: 1;
+}
+
+.main-footer .link-matrix-category__container li .link-matrix-category {
+    padding: 0;
+}
+
 @media only screen and (max-width:48.063em) {
   
   .learn.dashboard .widget, .learn.transcript .widget, .layout__content--explore .widget {
@@ -3552,15 +3561,6 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 	  padding: 40px;
 	  width: 100%;
   }
-}
-
-.main-footer .link-matrix-category__container li {
-    width: auto;
-    flex-grow: 1;
-}
-
-.main-footer .link-matrix-category__container li .link-matrix-category {
-    padding: 0;
 }
 
 @media only screen and (min-width:48.064em) and (max-width:64.063em) {
