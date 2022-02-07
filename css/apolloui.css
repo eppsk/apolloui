@@ -3268,6 +3268,7 @@ color: #606162;
   cursor : pointer;
   display: block;
   border-radius: 100%;
+  text-align: center;
 }
 
 .slide {
