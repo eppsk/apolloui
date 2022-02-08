@@ -3176,7 +3176,9 @@ line-height: 125%;
 }
 
 .layout__content--explore .explore-cisco .h2.widget__title,
-.layout__content--explore .explore-youliked .h2.widget__title {
+.layout__content--explore .explore-youliked .h2.widget__title,
+.layout__content--explore .ciscou-courses .h2.widget__title,
+.layout__content--explore .ciscou-podcasts .h2.widget__title {
 	position: relative;
 }
 
