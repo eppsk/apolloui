@@ -2313,6 +2313,7 @@ border-radius: 100px;
     line-height: 120%;
     letter-spacing: -0.02em;
     color: #606162;
+	justify-content: center;
 }
 
 .topMenu li {
