@@ -2526,7 +2526,7 @@ border-radius: 100px;
 .home.catalog .catalog-search-bar .catalog-active-filters {
   display: flex;
   align-items: center;
-  width: 83%;
+  width: 40%;
 }
 
 .home.catalog .widget--catalog .catalog-search-bar .catalog-display-type .btn--primary {
