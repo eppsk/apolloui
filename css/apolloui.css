@@ -2884,7 +2884,7 @@ line-height: 125%;
 
 /*horizontal scrolling*/
 .horizontal-scroll, .learn.dashboard .widget--recommended-content_multi-carousel .featured-content-multi-carousel .featured-content-block-grid,
-layout__content--explore .widget .featured-content-block-grid, 
+.layout__content--explore .widget .featured-content-block-grid, 
 .horizontal-scroll, .layout__content--explore .featured-content-article .featured-content-block-grid, .layout__content--explore .widget--recommended-content .featured-content-block-grid {
     display: flex;
     flex-wrap: nowrap;
