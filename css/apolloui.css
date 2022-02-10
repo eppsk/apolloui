@@ -3610,6 +3610,10 @@ background-color: transparent;
 	background-color: transparent;
 }
 
+.learn.dashboard .progress.colorized .meter {
+	background: #fff;
+}
+
 @media only screen and (max-width:48.063em) {
   
   .learn.dashboard .widget, .learn.transcript .widget, .layout__content--explore .widget {
