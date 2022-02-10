@@ -3542,7 +3542,7 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
         color: #fff;
     }
 .layout__content--explore .catalog-grid-item__body {
-background-color: #F4F5F6;
+background-color: transparent;
 }
 
 .layout__content--explore .catalog-grid-item__body :is(.catalog-grid-item__title, .catalog-grid-item__description, .catalog-grid-item__source, .catalog-grid-item__author) {
