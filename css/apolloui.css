@@ -2008,7 +2008,8 @@ border-radius: 100px;
       color: #0D0D0E;
     }
     
-    .featured-content-multi-carousel-item,  .layout__content--explore .featured-content-article-item {
+    .featured-content-multi-carousel-item,  .layout__content--explore .featured-content-article-item
+    .layout__content--explore .catalog-grid-item {
         background: #F4F5F6;
         color: #0D0D0E;
     }
@@ -3487,7 +3488,8 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
           display: none;
         }
         
-  .learn.dashboard .catalog-grid-item__title {
+  .learn.dashboard .catalog-grid-item__title,
+  .layout__content--explore .catalog-grid-item__title {
             font-style: normal;
         font-weight: 300;
         font-size: 36px;
@@ -3497,7 +3499,8 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
         margin-bottom: 0px;
       }
       
-      .learn.dashboard .catalog-grid-item__description {
+      .learn.dashboard .catalog-grid-item__description,
+  .layout__content--explore .catalog-grid-item__description {
         font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -3513,7 +3516,8 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
         border-width: 0px;
       }
       
-    .learn.dashboard .catalog-grid-item__body {
+    .learn.dashboard .catalog-grid-item__body,
+  .layout__content--explore .catalog-grid-item__body {
     display: flex;
     flex-direction: column;
         padding-top: 31px;
@@ -3524,7 +3528,8 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
         flex-grow:1;
     }
     
-    .learn.dashboard .catalog-grid-item__source {
+    .learn.dashboard .catalog-grid-item__source,
+  .layout__content--explore .catalog-grid-item__source {
       order: -1;
         font-style: normal;
         font-weight: normal;
@@ -3536,6 +3541,10 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
         margin-bottom: 34px;
         color: #fff;
     }
+
+.layout__content--explore .catalog-grid-item__body ::is(.catalog-grid-item__title, .catalog-grid-item__description, .catalog-grid-item__source, .catalog-grid-item__author) {
+	color:#0D0D0E;
+}
     
     .learn.dashboard .featured-content-item__authors {
       color: #fff;
