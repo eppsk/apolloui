@@ -2884,7 +2884,7 @@ line-height: 125%;
 
 /*horizontal scrolling*/
 .horizontal-scroll, .learn.dashboard .widget--recommended-content_multi-carousel .featured-content-multi-carousel .featured-content-block-grid,
-.horizontal-scroll, .layout__content--explore .featured-content-article .featured-content-block-grid {
+.horizontal-scroll, .layout__content--explore .featured-content-article .featured-content-block-grid, .layout__content--explore .widget--recommended-content .featured-content-block-grid {
     display: flex;
     flex-wrap: nowrap;
     overflow: auto;
@@ -2997,7 +2997,8 @@ line-height: 125%;
           border-right-width: 0px;
         }
         
-        .learn.dashboard .widget--recommended-content_multi-carousel .widget__title, .learn.dashboard .explore-learningpath .widget__title  {
+        .learn.dashboard .widget--recommended-content_multi-carousel .widget__title, .learn.dashboard .explore-learningpath .widget__title,
+        .layout__content--explore .widget--recommended-content .widget__title {
         
             font-style: normal;
             font-weight: 300;
@@ -3018,17 +3019,20 @@ line-height: 125%;
             color: #fff;
         }
         
-        .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar {
+        .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar,
+        .layout__content--explore .widget--recommended-content ::-webkit-scrollbar {
                     width: 12px;
                     height: 8px;
                     }
         
-                   .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar-track {
+                   .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar-track,
+                   .layout__content--explore .widget--recommended-content ::-webkit-scrollbar-track {
                     background-color: #C3C4C5;
                     border-radius: 10px;
                     }
         
-                    .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar-thumb {
+                    .learn.dashboard .featured-content-multi-carousel ::-webkit-scrollbar-thumb,
+                    .layout__content--explore .widget--recommended-content ::-webkit-scrollbar-thumb {
                     border-radius: 10px;
                     background-color: #0051AF;
                     }
