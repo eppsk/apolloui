@@ -3578,6 +3578,10 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
     color: #0D0D0E;
 }
 
+.learn.dashboard .progress {
+	background-color: transparent;
+}
+
 @media only screen and (max-width:48.063em) {
   
   .learn.dashboard .widget, .learn.transcript .widget, .layout__content--explore .widget {
