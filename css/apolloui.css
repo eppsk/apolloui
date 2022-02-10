@@ -2884,6 +2884,7 @@ line-height: 125%;
 
 /*horizontal scrolling*/
 .horizontal-scroll, .learn.dashboard .widget--recommended-content_multi-carousel .featured-content-multi-carousel .featured-content-block-grid,
+layout__content--explore .widget .featured-content-block-grid, 
 .horizontal-scroll, .layout__content--explore .featured-content-article .featured-content-block-grid, .layout__content--explore .widget--recommended-content .featured-content-block-grid {
     display: flex;
     flex-wrap: nowrap;
@@ -2899,7 +2900,8 @@ line-height: 125%;
     flex-wrap: nowrap;
     }
     
-    .carousel-item, .layout__content--explore .featured-content-article .featured-content-block-grid>li {
+    .carousel-item, .layout__content--explore .featured-content-article .featured-content-block-grid>li, 
+    .layout__content--explore .featured-content-article .featured-content-block-grid>li {
     flex: 0 0 auto;
     }
     
@@ -3370,22 +3372,26 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
         display: flex;
         }
         
-        .layout__content--explore .widget--featured-content .featured-content-block-grid>li {
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li, 
+        .layout__content--explore .widget--recent-content .featured-content-block-grid>li {
           display: flex;
         }
         
         .learn.dashboard .widget--recommended-content .featured-content-block-grid>li :is(.catalog-item, .catalog-grid-item, .row),
-        .layout__content--explore .widget--featured-content .featured-content-block-grid>li :is(.catalog-item, .featured-content-article-item, .row) {
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li :is(.catalog-item, .featured-content-article-item, .row),
+        .layout__content--explore .widget--recent-content .featured-content-block-grid>li :is(.catalog-item, .featured-content-article-item, .row) {
           display: flex;
           flex-grow: 1;
         }
         
         .learn.dashboard .widget--recommended-content .featured-content-block-grid>li .row,
-        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row {
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row, 
+        .layout__content--explore .widget--recent-content .featured-content-block-grid>li .row {
           flex-direction: column;
         }
         
         .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row .featured-content-article-item__description, 
+        .layout__content--explore .widget--recent-content .featured-content-block-grid>li .row .featured-content-article-item__description,
         .layout__content--explore .featured-content-item__authors {
           flex-grow: 1;
         }
@@ -3395,14 +3401,16 @@ box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
         }
         
         .learn.dashboard .widget--recommended-content .featured-content-block-grid>li .row [class*=column]+[class*=column]:last-child,
-        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row [class*=column]+[class*=column]:last-child {
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row [class*=column]+[class*=column]:last-child, 
+        .layout__content--explore .widget--recent-content .featured-content-block-grid>li .row [class*=column]+[class*=column]:last-child {
           flex-grow: 1;
           display: flex;
 		padding: 0;
         }
         
         .learn.dashboard .widget--recommended-content .featured-content-block-grid>li .row [class*=column]:first-child,
-        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row [class*=column]:first-child {
+        .layout__content--explore .widget--featured-content .featured-content-block-grid>li .row [class*=column]:first-child,
+        .layout__content--explore .widget--recent-content .featured-content-block-grid>li .row [class*=column]:first-child {
           display: none;
         }
         
